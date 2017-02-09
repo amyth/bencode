@@ -11,6 +11,8 @@ from __future__ import absolute_import
 
 # Written by Petru Paler
 
+from builtins import str
+from builtins import object
 from .BTL import BTFailure
 
 
@@ -104,7 +106,7 @@ def encode_list(x, r):
 
 def encode_dict(x,r):
     r.append('d')
-    ilist = x.items()
+    ilist = list(x.items())
     ilist.sort()
     for k, v in ilist:
         r.extend((str(len(k)), ':', k))
