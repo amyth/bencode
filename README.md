@@ -21,4 +21,4 @@ encoded_value = bencode(some_value_to_encode)
 
 ### Contact
 ---
-If you have any issues or question using this library, you can holla at me on any of twitter: [@mytharora](https://twitter.com/mytharora)
+If you have any issues or question using this library, you can holla at me on twitter: [@mytharora](https://twitter.com/mytharora)
